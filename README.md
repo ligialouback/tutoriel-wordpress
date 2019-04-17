@@ -1,5 +1,4 @@
 
-Comment installer Wordpress sur Ubuntu Server
 
 ![Logo Grasset](/img/logo-grasset.png)
 
