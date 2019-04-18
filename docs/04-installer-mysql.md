@@ -13,6 +13,7 @@ Dans le terminal, entrer la commande suivante:
 >```sudo apt install mysql-server```
 
 La connexion vous demandera de taper un mot de passe.
+
 *Tapez le mot de passe enregistré dans le serveur.*
 
 Confirmer l'installation en tapant "Y" après le message:
@@ -22,7 +23,7 @@ Pour vérifier que MySQL a été installé, entrer la commande suivante:
 
 >```dpkg --get-selections | grep mysql```
 
-Cette commande affiche tous les paquets installés contenant "mysql" dans leur nom.
+Cette commande affiche tous les paquets installés contenant *mysql* dans leur nom.
 
 Exemple de sortie: ```mysql-server install```
 
@@ -51,6 +52,6 @@ Authentication is required to restart 'mysql.service'.
 Authenticating as: username
 Password:
 
-Exemple de sortie: ==== AUTHENTICATION COMPLETE ===
+Exemple de sortie: ```==== AUTHENTICATION COMPLETE ===```
 
-Suivante: [Installer Wordpress](05-installer-wordpress.md)
+Suivante: [Installer WordPress](05-installer-wordpress.md)

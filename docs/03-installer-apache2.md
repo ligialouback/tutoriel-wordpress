@@ -15,6 +15,7 @@ Dans le terminal, entrer la commande suivante:
 >```sudo apt install apache2```
 
 La connexion vous demandera de taper un mot de passe.
+
 *Tapez le mot de passe enregistré dans le serveur.*
 
 Confirmer l'installation en tapant "Y" après le message:

@@ -1,4 +1,4 @@
-# Installer Wordpress
+# Installer WordPress
 
 Dans le terminal, entrer la commande suivante:
 
@@ -28,6 +28,7 @@ Dans le terminal, passer à un autre utilisateur avec les privilèges *root*:
 >```sudo su```
 
 La connexion vous demandera de taper un mot de passe.
+
 *Taper le mot de passe enregistré dans le serveur.*
 
 Exemple de sortie: ```root@username:/home/username#```
@@ -75,6 +76,7 @@ Pour activer ce nouveau site wordPress, taper:
 > ```sudo a2ensite wordpress```
 
 Exemple de sortie:
+
 ```
 Enabling site wordpress.
 To activate the new configuration, you need to run:
@@ -92,7 +94,7 @@ Authentication is required to reload 'apache2.service'.
 Authenticating as: username
 Password:
 
-Exemple de sortie: ==== AUTHENTICATION COMPLETE ===
+Exemple de sortie: ```==== AUTHENTICATION COMPLETE ===```
 
 ### Configurer WordPress pour utiliser une base de données MySQL
 
@@ -106,7 +108,7 @@ Si le fichier *config-localhost.php* n’existe pas, il sera créé:
 
 Changer les champs nécessaires où:
 
-*yourpasswordhere* = le mot de passe enregistré de votre serveur.
+*yourpasswordhere* = le mot de passe enregistré dans votre serveur.
 
 >```
 >cat > /etc/wordpress/config-localhost.php <<EOF
@@ -144,7 +146,7 @@ Si le fichier *wordpress.sql* n’existe pas, il sera créé:
 
 Changer les champs nécessaires où:
 
-*yourpasswordhere* = le mot de passe enregistré de votre serveur.
+*yourpasswordhere* = le mot de passe enregistré dans votre serveur.
 
 >```
 >cat > wordpress.sql <<EOF
@@ -179,4 +181,4 @@ Modifier le fichier:
 
 > ```sudo mv config-localhost.php config-192.168.0.105.php```
 
-Suivante: [Accéder à Wordpress](06-acceder-wordpress.md)
+Suivante: [Accéder à WordPress](06-acceder-wordpress.md)
